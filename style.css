@@ -1,0 +1,8 @@
+#can{
+    border:3px solid black;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
