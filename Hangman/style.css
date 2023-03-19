@@ -1,0 +1,61 @@
+body{
+    background-image: url("random.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    background-color: pink;
+
+}
+
+#beg,#res{
+    width: 25%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+
+#d1{
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+}
+
+#lab1, #lab2 ,#usedLet {
+    font-size: 30px;
+    color:rgb(150, 23, 150);
+    font-weight: bold;
+
+}
+
+#lab1, #lab2 ,#usedLet,#inl,#subLetter,#H2{
+    visibility: hidden;
+}
+
+#inl{
+    font-size: 30px;
+     text-align: center; 
+}
+#subLetter{
+    font-size: 30px;
+}
+
+#H2{
+    font-size: 50px;
+}
+
+button{
+    cursor:pointer;
+    background-color: pink;
+
+}
+
+button:active{
+    transform: translate(4px,4px);
+    background-color: rgb(150, 23, 150);
+
+}
