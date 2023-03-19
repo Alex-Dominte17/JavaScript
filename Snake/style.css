@@ -1,0 +1,35 @@
+*{
+  margin:0;
+  font-family: "Permanent marker",cursive;
+}
+
+#can{
+     border:3px solid black;
+}  
+
+div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+h1{
+  
+  text-align: center;
+  background-image: linear-gradient(45deg,rgb(36, 245, 36),rgb(4, 67, 4));
+  
+   
+} 
+
+#score{
+  margin-top: 10px;
+}
+
+button{
+  font-size: 30px;
+  cursor: pointer;
+}
+
+button:active{
+  margin-left:10px;
+}
